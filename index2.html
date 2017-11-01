@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graphics Assignment 2</title>
+	<script type="text/javascript" src="main2.js"></script>
+</head>
+<body>
+
+	Scale (x,y):
+	<input type="string" id="Sx" />
+	<input type="string" id="Sy" />
+	<br></br>
+
+	Scale about point (x,y):
+	<input type="string" id="sxp" />
+	<input type="string" id="syp" />
+	<br></br>
+
+	Translate (x,y):
+	<input type="string" id="Tx" />
+	<input type="string" id="Ty" />
+	<br></br>
+
+	Rotate (degrees):
+	<input type="string" id="rotate" />
+	<br></br>
+
+	Rotate about point (x,y):
+	<input type="string" id="rotx" />
+	<input type="string" id="roty" />
+	<br></br>
+
+	Draw Triangle:
+	<input type="button" value="Enter" onclick="main(document.getElementById('Tx').value,document.getElementById('Ty').value,document.getElementById('Sx').value,document.getElementById('Sy').value,document.getElementById('sxp').value,document.getElementById('syp').value,document.getElementById('rotate').value,document.getElementById('rotx').value,document.getElementById('roty').value)" /><br></br>
+
+
+
+	<canvas id = "canvas"></canvas>
+</body>
+</html>
